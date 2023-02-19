@@ -1,0 +1,118 @@
+body{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1600px 500px;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    text-align:left;
+    color:white;
+    margin-top: 17px;
+}
+ul{
+    display: flex;
+    margin-left: 100px;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+ul li a {
+    text-decoration: none;
+    padding:30px;
+    text-align: right;
+    color:white;
+    font-size:smaller;
+}
+nav ul li a:hover{
+    background: #fff;
+	color: #333;
+}
+.icon{
+    color:white;
+    width:30px;
+    height:30px;
+    margin-left: 300px;
+    padding:7px;
+
+}
+.text{
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+}
+.text h1{
+    font-size:60px;
+    font-weight:lighter;
+    font-family: 'Labrada', serif;
+    margin-bottom: 0%;
+}
+.text h4{
+    font-size:20px;
+    font-weight: lighter;
+    margin-top: 0%;
+
+}
+.btn{
+    padding: 5px 10px;
+    background: #fc036b;
+    border:none;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+}
+.menu-btn{
+    position: absolute;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+    display: none;
+}
+.design{
+    text-align: center;
+    color:black;
+    margin-top: 200px;
+}
+.design h1{
+    font-family:'Raleway', sans-serif;
+    ;
+    font-weight: lighter;
+}
+.design p{
+    font-size: x-large;
+    font-style: italic;
+}
+@media only screen and (max-width:850px){
+    .logo{
+        dISPLAY:flex;
+    }
+    .logo ul{
+        display: none;
+    }
+    .icon{
+        color:white;
+        width:30px;
+        height:30px;
+        margin-left: 600px;
+        padding:7px;
+    }
+}
+@media only screen and (max-width:600px){
+    body{
+        width:100%;
+        height:auto;
+    }
+    nav li{
+        display: block;
+        margin:10px 0;
+
+    }
+    .logop{
+        display:flex;
+    }
+}
+    
