@@ -93,9 +93,6 @@ nav ul li a:hover{
     .logo{
         display:flex;
     }
-    .logo ul{
-        display: none;
-    }
     .icon{
         color:white;
         width:30px;
@@ -113,7 +110,7 @@ nav ul li a:hover{
 	  color:black;
 	  margin-top:180px
 	}
-	 ul{
+   ul{
         display: flex;
         margin-left: 5px;
     }
