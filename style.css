@@ -86,9 +86,12 @@ nav ul li a:hover{
     font-size: x-large;
     font-style: italic;
 }
-@media only screen and (max-width:850px){
+@media only screen and (max-width:600px){
+    body{
+        background-size:500px 450px;
+	}
     .logo{
-        dISPLAY:flex;
+        display:flex;
     }
     .logo ul{
         display: none;
@@ -100,19 +103,30 @@ nav ul li a:hover{
         margin-left: 600px;
         padding:7px;
     }
+ .text{
+	 text-align:ceenter;
+	 color:white;
+	 margin-top:90px;
 }
-@media only screen and (max-width:600px){
-    body{
-        width:100%;
-        height:auto;
+  .design{
+	  text-align:center;
+	  color:black;
+	  margin-top:180px
+	}
+	 ul{
+        display: flex;
+        margin-left: 5px;
     }
-    nav li{
-        display: block;
-        margin:10px 0;
+    ul li{
+        list-style-type: none;
+        margin-left: 3px;
+    }
+    ul li a {
+        text-decoration: none;
+        padding:7px;
+        text-align: right;
+        color:white;
+        font-size:smaller;
+    }
+}
 
-    }
-    .logop{
-        display:flex;
-    }
-}
-    
