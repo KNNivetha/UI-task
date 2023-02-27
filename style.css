@@ -90,21 +90,16 @@ nav ul li a:hover{
     body{
         background-size:500px 450px;
 	}
-    .logo{
-        display:flex;
+    .logo p{
+        text-align:left;
     }
-    .icon{
-        color:white;
-        width:30px;
-        height:30px;
-        margin-left: 600px;
-        padding:7px;
-    }
- .text{
-	 text-align:ceenter;
+   .text{
+	 display:inline-flexbox;
+	 width:100%
+	 text-align:center;
 	 color:white;
-	 margin-top:90px;
-}
+	 margin-top:70px;
+  }
   .design{
 	  text-align:center;
 	  color:black;
@@ -114,9 +109,12 @@ nav ul li a:hover{
         display: flex;
         margin-left: 5px;
     }
-    ul li{
-        list-style-type: none;
-        margin-left: 3px;
+    nav ul{
+	flex-direction:column;
+	text-align:left;
+	margin-top:40px;
+    nav li{
+       margin:10px 0px;
     }
     ul li a {
         text-decoration: none;
